@@ -15,7 +15,47 @@
 
 .hero-title {
     font-size: 125px;
-    background-color: blue;
     width: fit-content;
     margin: auto;
+}
+
+.title-black {
+    color: black;
+    position: relative;
+}
+
+.title-red {
+    color: red;
+    opacity: 0.5;
+}
+
+.title-blue {
+    color: blue;
+    opacity: 0.5;
+}
+
+.hero-btn-black {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 750;
+}
+
+.hero-btn-red {
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5
+}
+
+.hero-btn-blue {
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5
 }
