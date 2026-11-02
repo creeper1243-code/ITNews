@@ -17,21 +17,30 @@
     font-size: 125px;
     width: fit-content;
     margin: auto;
+    font-weight: 800;
 }
 
 .title-black {
     color: black;
     position: relative;
+    right: 15px;
+    top: 130px;
+    z-index: 3;
 }
 
 .title-red {
     color: red;
     opacity: 0.5;
+    z-index: 2;
 }
 
 .title-blue {
     color: blue;
     opacity: 0.5;
+    position: relative;
+    bottom: 130px;
+    left: 15px;
+    z-index: 1;
 }
 
 .hero-btn-black {
@@ -44,18 +53,50 @@
     text-align: center;
     line-height: 50px;
     font-weight: 750;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.hero-btn-black:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.5s;
 }
 
 .hero-btn-red {
     background-color: red;
     width: 300px;
     height: 50px;
-    opacity: 0.5
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -70%)
 }
 
 .hero-btn-blue {
     background-color: blue;
     width: 300px;
     height: 50px;
-    opacity: 0.5
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -45%)
+}
+
+@keyframes jump {
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+
+    }
 }
