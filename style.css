@@ -115,7 +115,7 @@
 
     font-family: 'Roboto', sans-serif;
     border: 2px solid black;
-
+    margin-top: 100px;
 }
 
 .article-title {
@@ -124,6 +124,9 @@
     text-align: center;
     padding: 10px;
     font-size: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .article-category {
@@ -135,8 +138,17 @@
     font-size: 25px;
 }
 
-.article-image {
+.article-img {
     width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.article-text {
+    padding: 40px;
+    position: relative;
+    z-index: 9;
+    background-color: white;
 }
 
 @keyframes jump {
